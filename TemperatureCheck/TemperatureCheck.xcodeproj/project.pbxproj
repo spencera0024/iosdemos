@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC3BD342B62C0450080DCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3BD332B62C0450080DCCA /* AppDelegate.swift */; };
+		DCC3BD362B62C0450080DCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3BD352B62C0450080DCCA /* SceneDelegate.swift */; };
+		DCC3BD382B62C0450080DCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3BD372B62C0450080DCCA /* ViewController.swift */; };
+		DCC3BD3B2B62C0450080DCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3BD392B62C0450080DCCA /* Main.storyboard */; };
+		DCC3BD3D2B62C0460080DCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3BD3C2B62C0460080DCCA /* Assets.xcassets */; };
+		DCC3BD402B62C0460080DCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3BD3E2B62C0460080DCCA /* LaunchScreen.storyboard */; };
+		DCC3BD4B2B62C0460080DCCA /* TemperatureCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3BD4A2B62C0460080DCCA /* TemperatureCheckTests.swift */; };
+		DCC3BD552B62C0460080DCCA /* TemperatureCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3BD542B62C0460080DCCA /* TemperatureCheckUITests.swift */; };
+		DCC3BD572B62C0460080DCCA /* TemperatureCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3BD562B62C0460080DCCA /* TemperatureCheckUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC3BD472B62C0460080DCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC3BD282B62C0450080DCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC3BD2F2B62C0450080DCCA;
+			remoteInfo = TemperatureCheck;
+		};
+		DCC3BD512B62C0460080DCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC3BD282B62C0450080DCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC3BD2F2B62C0450080DCCA;
+			remoteInfo = TemperatureCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC3BD302B62C0450080DCCA /* TemperatureCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC3BD332B62C0450080DCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCC3BD352B62C0450080DCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCC3BD372B62C0450080DCCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCC3BD3A2B62C0450080DCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC3BD3C2B62C0460080DCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC3BD3F2B62C0460080DCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC3BD412B62C0460080DCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC3BD462B62C0460080DCCA /* TemperatureCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC3BD4A2B62C0460080DCCA /* TemperatureCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCheckTests.swift; sourceTree = "<group>"; };
+		DCC3BD502B62C0460080DCCA /* TemperatureCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC3BD542B62C0460080DCCA /* TemperatureCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCheckUITests.swift; sourceTree = "<group>"; };
+		DCC3BD562B62C0460080DCCA /* TemperatureCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC3BD2D2B62C0450080DCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3BD432B62C0460080DCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3BD4D2B62C0460080DCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC3BD272B62C0450080DCCA = {
+			isa = PBXGroup;
+			children = (
+				DCC3BD322B62C0450080DCCA /* TemperatureCheck */,
+				DCC3BD492B62C0460080DCCA /* TemperatureCheckTests */,
+				DCC3BD532B62C0460080DCCA /* TemperatureCheckUITests */,
+				DCC3BD312B62C0450080DCCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC3BD312B62C0450080DCCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3BD302B62C0450080DCCA /* TemperatureCheck.app */,
+				DCC3BD462B62C0460080DCCA /* TemperatureCheckTests.xctest */,
+				DCC3BD502B62C0460080DCCA /* TemperatureCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC3BD322B62C0450080DCCA /* TemperatureCheck */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3BD332B62C0450080DCCA /* AppDelegate.swift */,
+				DCC3BD352B62C0450080DCCA /* SceneDelegate.swift */,
+				DCC3BD372B62C0450080DCCA /* ViewController.swift */,
+				DCC3BD392B62C0450080DCCA /* Main.storyboard */,
+				DCC3BD3C2B62C0460080DCCA /* Assets.xcassets */,
+				DCC3BD3E2B62C0460080DCCA /* LaunchScreen.storyboard */,
+				DCC3BD412B62C0460080DCCA /* Info.plist */,
+			);
+			path = TemperatureCheck;
+			sourceTree = "<group>";
+		};
+		DCC3BD492B62C0460080DCCA /* TemperatureCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3BD4A2B62C0460080DCCA /* TemperatureCheckTests.swift */,
+			);
+			path = TemperatureCheckTests;
+			sourceTree = "<group>";
+		};
+		DCC3BD532B62C0460080DCCA /* TemperatureCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3BD542B62C0460080DCCA /* TemperatureCheckUITests.swift */,
+				DCC3BD562B62C0460080DCCA /* TemperatureCheckUITestsLaunchTests.swift */,
+			);
+			path = TemperatureCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC3BD2F2B62C0450080DCCA /* TemperatureCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC3BD5A2B62C0460080DCCA /* Build configuration list for PBXNativeTarget "TemperatureCheck" */;
+			buildPhases = (
+				DCC3BD2C2B62C0450080DCCA /* Sources */,
+				DCC3BD2D2B62C0450080DCCA /* Frameworks */,
+				DCC3BD2E2B62C0450080DCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureCheck;
+			productName = TemperatureCheck;
+			productReference = DCC3BD302B62C0450080DCCA /* TemperatureCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC3BD452B62C0460080DCCA /* TemperatureCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC3BD5D2B62C0460080DCCA /* Build configuration list for PBXNativeTarget "TemperatureCheckTests" */;
+			buildPhases = (
+				DCC3BD422B62C0460080DCCA /* Sources */,
+				DCC3BD432B62C0460080DCCA /* Frameworks */,
+				DCC3BD442B62C0460080DCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC3BD482B62C0460080DCCA /* PBXTargetDependency */,
+			);
+			name = TemperatureCheckTests;
+			productName = TemperatureCheckTests;
+			productReference = DCC3BD462B62C0460080DCCA /* TemperatureCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC3BD4F2B62C0460080DCCA /* TemperatureCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC3BD602B62C0460080DCCA /* Build configuration list for PBXNativeTarget "TemperatureCheckUITests" */;
+			buildPhases = (
+				DCC3BD4C2B62C0460080DCCA /* Sources */,
+				DCC3BD4D2B62C0460080DCCA /* Frameworks */,
+				DCC3BD4E2B62C0460080DCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC3BD522B62C0460080DCCA /* PBXTargetDependency */,
+			);
+			name = TemperatureCheckUITests;
+			productName = TemperatureCheckUITests;
+			productReference = DCC3BD502B62C0460080DCCA /* TemperatureCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC3BD282B62C0450080DCCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DCC3BD2F2B62C0450080DCCA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DCC3BD452B62C0460080DCCA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DCC3BD2F2B62C0450080DCCA;
+					};
+					DCC3BD4F2B62C0460080DCCA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DCC3BD2F2B62C0450080DCCA;
+					};
+				};
+			};
+			buildConfigurationList = DCC3BD2B2B62C0450080DCCA /* Build configuration list for PBXProject "TemperatureCheck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC3BD272B62C0450080DCCA;
+			productRefGroup = DCC3BD312B62C0450080DCCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC3BD2F2B62C0450080DCCA /* TemperatureCheck */,
+				DCC3BD452B62C0460080DCCA /* TemperatureCheckTests */,
+				DCC3BD4F2B62C0460080DCCA /* TemperatureCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC3BD2E2B62C0450080DCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC3BD402B62C0460080DCCA /* LaunchScreen.storyboard in Resources */,
+				DCC3BD3D2B62C0460080DCCA /* Assets.xcassets in Resources */,
+				DCC3BD3B2B62C0450080DCCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3BD442B62C0460080DCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3BD4E2B62C0460080DCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC3BD2C2B62C0450080DCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC3BD382B62C0450080DCCA /* ViewController.swift in Sources */,
+				DCC3BD342B62C0450080DCCA /* AppDelegate.swift in Sources */,
+				DCC3BD362B62C0450080DCCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3BD422B62C0460080DCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC3BD4B2B62C0460080DCCA /* TemperatureCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3BD4C2B62C0460080DCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC3BD572B62C0460080DCCA /* TemperatureCheckUITestsLaunchTests.swift in Sources */,
+				DCC3BD552B62C0460080DCCA /* TemperatureCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC3BD482B62C0460080DCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC3BD2F2B62C0450080DCCA /* TemperatureCheck */;
+			targetProxy = DCC3BD472B62C0460080DCCA /* PBXContainerItemProxy */;
+		};
+		DCC3BD522B62C0460080DCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC3BD2F2B62C0450080DCCA /* TemperatureCheck */;
+			targetProxy = DCC3BD512B62C0460080DCCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC3BD392B62C0450080DCCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC3BD3A2B62C0450080DCCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC3BD3E2B62C0460080DCCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC3BD3F2B62C0460080DCCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC3BD582B62C0460080DCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC3BD592B62C0460080DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC3BD5B2B62C0460080DCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemperatureCheck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TemperatureCheck;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.TemperatureCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC3BD5C2B62C0460080DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemperatureCheck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TemperatureCheck;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.TemperatureCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC3BD5E2B62C0460080DCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.TemperatureCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TemperatureCheck";
+			};
+			name = Debug;
+		};
+		DCC3BD5F2B62C0460080DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.TemperatureCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TemperatureCheck";
+			};
+			name = Release;
+		};
+		DCC3BD612B62C0460080DCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.TemperatureCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TemperatureCheck;
+			};
+			name = Debug;
+		};
+		DCC3BD622B62C0460080DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.TemperatureCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TemperatureCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC3BD2B2B62C0450080DCCA /* Build configuration list for PBXProject "TemperatureCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3BD582B62C0460080DCCA /* Debug */,
+				DCC3BD592B62C0460080DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC3BD5A2B62C0460080DCCA /* Build configuration list for PBXNativeTarget "TemperatureCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3BD5B2B62C0460080DCCA /* Debug */,
+				DCC3BD5C2B62C0460080DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC3BD5D2B62C0460080DCCA /* Build configuration list for PBXNativeTarget "TemperatureCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3BD5E2B62C0460080DCCA /* Debug */,
+				DCC3BD5F2B62C0460080DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC3BD602B62C0460080DCCA /* Build configuration list for PBXNativeTarget "TemperatureCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3BD612B62C0460080DCCA /* Debug */,
+				DCC3BD622B62C0460080DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC3BD282B62C0450080DCCA /* Project object */;
+}
