@@ -40,6 +40,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Calculate"/>
+                                <connections>
+                                    <action selector="calcBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ipe-5Q-nFC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVN-lj-NEm">
                                 <rect key="frame" x="51" y="416" width="326" height="21"/>
@@ -66,6 +69,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="amountLabel" destination="eVN-lj-NEm" id="0mA-Eu-WMa"/>
+                        <outlet property="amountOL" destination="AMq-69-lbC" id="vOe-RD-F3J"/>
+                        <outlet property="discountLabel" destination="HpP-er-OGW" id="F0K-Fj-HS8"/>
+                        <outlet property="discountOL" destination="GEm-3m-Wst" id="rU0-c8-BbK"/>
+                        <outlet property="finalAmountLabel" destination="98w-rb-hIS" id="nBc-XY-YHe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
