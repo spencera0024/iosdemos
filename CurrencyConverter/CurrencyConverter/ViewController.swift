@@ -19,12 +19,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func submitButtonClicked(_ sender: Any) {
         var euros = Double(inputOL.text!)
         euros = round((euros! * 0.93) * 100) / 100.0
         outputOL.text = "$\(inputOL.text!) = \(euros!) Euros "
         imageOL.image = UIImage(named: "euflag.png")
     }
+    
 }
 
