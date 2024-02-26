@@ -29,13 +29,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
         //previous button should be disabled
         previousOL.isEnabled = false
+        
         //display the first course details (index 0)
-        imageViewOL.image = UIImage(named: courses[0][0])
-        crsNumOL.text = courses[0][1]
-        crsTitleOL.text = courses[0][2]
-        semesterOL.text = courses[0][3]
+        updateContents(imgNum)
     }
 
     @IBAction func prevBtnClicked(_ sender: Any) {
@@ -46,10 +45,7 @@ class ViewController: UIViewController {
         imgNum = imgNum - 1
         
         //update the course details
-        imageViewOL.image = UIImage(named: courses[imgNum][0])
-        crsNumOL.text = courses[imgNum][1]
-        crsTitleOL.text = courses[imgNum][2]
-        semesterOL.text = courses[imgNum][3]
+        updateContents(imgNum)
         
         //once the users reaches the beginning of the array, the previous button should be disabled
         if(imgNum == 0) {
@@ -65,15 +61,20 @@ class ViewController: UIViewController {
         imgNum = imgNum + 1
         
         //update the course details
-        imageViewOL.image = UIImage(named: courses[imgNum][0])
-        crsNumOL.text = courses[imgNum][1]
-        crsTitleOL.text = courses[imgNum][2]
-        semesterOL.text = courses[imgNum][3]
+        updateContents(imgNum)
         
         //once the user reaches the end of the array, the next button should be disabled
         if(imgNum == courses.count-1) {
             nextOL.isEnabled = false
         }
+    }
+    
+    //helper function to update contents
+    func updateContents(_ imageNumber: Int) {
+        imageViewOL.image = UIImage(named: courses[imgNum][0])
+        crsNumOL.text = courses[imgNum][1]
+        crsTitleOL.text = courses[imgNum][2]
+        semesterOL.text = courses[imgNum][3]
     }
 }
 
