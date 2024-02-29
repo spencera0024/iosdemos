@@ -26,7 +26,12 @@ class ViewController: UIViewController {
         
         if (temperature! > 60) {
             outputOL.text = "It is hot!"
-            imageOL.image = UIImage(named: "hot.jpeg")
+            UIView.animate(withDuration: 1, delay: 0.5, animations: {
+                self.imageOL.alpha = 0
+                self.imageOL.alpha = 1
+                self.imageOL.image =
+                UIImage(named:"hot.jpeg")
+            })
         }
         else {
             outputOL.text = "It is cold!"
